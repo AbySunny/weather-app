@@ -49,7 +49,7 @@ async function fetchImage(city){
         const styleSheet = document.styleSheets[0]; // Access the first stylesheet
         for (let rule of styleSheet.cssRules) {
             if (rule.selectorText === "body::before") {
-                rule.style.backdropFilter = "blur(3px)"; // Reduce blur to 5px
+                rule.style.backdropFilter = "blur(3px)";
             }
         }
 
