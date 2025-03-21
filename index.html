@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./style.css">
+
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <main class="main-container">
+        <header class="input-container">
+            <input  class="city-input" id="city" placeholder="Search city">
+            <button class="search-btn">
+                <i class="bi bi-search"></i>
+            </button>
+        </header>
+        
+        <section class=" weather-info">
+            <div class="location-date-container">
+                <div class="location">
+                    <i class="bi bi-geo-alt"></i>        
+                    <h4 class="country-txt">--</h4>
+                 </div>
+                 <h5 class="current-date-txt regular-txt"></h5>
+            </div>
+            <div class="weather-summary-container">
+                <img src="assets/weather/clouds.svg" class="weather-summary-img">
+                <div class="weather-summary-info">
+                    <h1 class="temp-txt">-- °C</h1>
+                    <h3 class="condition-txt regular-txt">--</h3>
+    
+                </div>
+            </div>
+            <div class="weater-conditions-container">
+                <div class="condition-item">
+                    <i class="bi bi-droplet"></i>
+                    <div class="condition-info">
+                        <h5 class="regular-txt">Humidity</h5>
+                        <h5 class="humidity-value-txt">--%</h5>
+                    </div>
+                </div>
+                <div class="condition-item">
+                    <i class="bi bi-wind"></i>
+                    <div class="condition-info">
+                        <h5 class="regular-txt">Wind Speed</h5>
+                        <h5 class="wind-value-txt">-- m/s</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="forecast-items-container">
+                <div class="forecast-item">
+                    <h5 class="forecast-item-date regular-txt">--</h5>
+                    <img src="assets/weather/thunderstorm.svg" class="forecast-item-img">
+                    <h5 class="forecast-item-temp">-- °C  </h5>
+                </div>
+                <div class="forecast-item">
+                    <h5 class="forecast-item-date regular-txt">--</h5>
+                    <img src="assets/weather/thunderstorm.svg" class="forecast-item-img">
+                    <h5 class="forecast-item-temp">-- °C </h5>
+                </div>
+                <div class="forecast-item">
+                    <h5 class="forecast-item-date regular-txt">-- </h5>
+                    <img src="assets/weather/thunderstorm.svg" class="forecast-item-img">
+                    <h5 class="forecast-item-temp">-- °C </h5>
+                </div>
+                <div class="forecast-item">
+                    <h5 class="forecast-item-date regular-txt">-- </h5>
+                    <img src="assets/weather/thunderstorm.svg" class="forecast-item-img">
+                    <h5 class="forecast-item-temp">-- °C </h5>
+                </div>
+                <div class="forecast-item">
+                    <h5 class="forecast-item-date regular-txt">--</h5>
+                    <img src="assets/weather/thunderstorm.svg" class="forecast-item-img">
+                    <h5 class="forecast-item-temp">-- °C </h5>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+<script src="./app.js"></script>
+</html>
